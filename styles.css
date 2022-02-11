@@ -120,7 +120,7 @@ nav .nav-items .number-red {
 .hero-banner .cta-buttons button:hover,
 .shop-for .shop-for-images button:hover {
   background-color: var(--hover-btn-color);
-  color: var(--black-color);
+  color: black;
   cursor: pointer;
 }
 
