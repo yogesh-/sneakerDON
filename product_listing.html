@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="product_listing.css" />
+    <link rel="stylesheet" href="https://agniui.netlify.app/styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+
+</head>
+
+<body>
+    <section id="page">
+
+        <header>
+
+            <div class="header-row flex-row">
+
+                <div class="logo">
+                    <p class="h1">SNEAKERS</p>
+                </div>
+
+                <div class="search-bar flex-row">
+                    <input type="text" placeholder="Search">
+                    <span class="material-icons-outlined search-icon">
+                        search
+                    </span>
+                </div>
+
+                <div class="nav-items">
+                    <ul class="flex-row right-icons">
+                        <li><button class="btn">
+                                <p class="h4">Login</p>
+                        </li>
+                        <li>
+                            <div class="badge">
+                                <span class="material-icons-outlined">favorite_border</span>
+                                <div class="number-red">8</div>
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div class="badge">
+                                <span class="material-icons-outlined">
+                                    shopping_cart
+                                </span>
+                                <div class="number-red">12</div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </header>
+
+        <sidebar>
+            <div class="sidebar">
+                <div class="filter-header flex-row filter-styling">
+                    <p class="h3">Filter</p>
+                    <p class="h4">Cancel</p>
+                </div>
+
+                <div class="filter-price filter-styling">
+                    <p class="h3">Price</p>
+                    <div class="filter-price-break flex-row">
+                        <p class="h3">2000</p>
+                        <p class="h3">4000</p>
+                        <p class="h3">6000</p>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                </div>
+
+                <div class="filter-category flex-col filter-styling">
+                    <p class="h3">Category</p>
+                    <div class="filter-checkboks checkbox">
+                        <label for="checkbox-1">
+                            <input id="checkbox-1" name="radio" type="checkbox" checked>
+                            Running
+                        </label>
+                        <label for="checkbox-1">
+                            <input id="checkbox-1" name="radio" type="checkbox">
+                            Workout
+                        </label>
+                        <label for="checkbox-1">
+                            <input id="checkbox-1" name="radio" type="checkbox">
+                            Tennis
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-rating filter-styling">
+                    <p class="h3">Rating</p>
+                    <div class="radio">
+
+                        <label for="radio-1">
+                            <input id="radio-1" name="radio" type="radio" checked>
+                            4 stars & above
+                        </label>
+
+                        <label for="radio-1">
+                            <input id="radio-1" name="radio" type="radio">
+                            3 stars & above
+                        </label>
+
+                        <label for="radio-1">
+                            <input id="radio-1" name="radio" type="radio">
+                            2 stars & above
+                        </label>
+
+                        <label for="radio-1">
+                            <input id="radio-1" name="radio" type="radio">
+                            1 stars & above
+                        </label>
+
+
+                    </div>
+                </div>
+
+                <div class="filter-sorting filter-styling">
+                    <p class="h3">Sort By</p>
+                    <div class="radio">
+
+                        <label for="radio-2">
+                            <input id="radio-2" name="radio2" type="radio" checked>
+                            Low to High
+                        </label>
+
+                        <label for="radio-2">
+                            <input id="radio-2" name="radio2" type="radio">
+                            Hight to Low
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+        </sidebar>
+
+        <main>
+            <p class="h2 prod-headline">Showing All Products</p>
+            <div class="product-listing-products flex-row">
+
+                <div class="card-badge">
+                    <img src="./assets/nike.png" alt="sneakers">
+                    <div class="card-tag flex-row">
+                        <span class="material-icons-outlined">
+                            <img src="./assets/heart.png">
+                        </span>
+                    </div>
+
+                    <div class="card-text">
+                        <p class="h5">Nike</p>
+                        <p class="h2">Nike Airforce</p>
+                        <p class="h3">Rs.4900 <Span>Rs.9999</Span></p>
+                        <button class="btn">
+                            <p class="h4">Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card-badge">
+                    <img src="./assets/adidas_red.jpg" alt="sneakers">
+                    <div class="card-tag flex-row">
+                        <span class="material-icons-outlined">
+                            favorite_border
+                        </span>
+                    </div>
+
+                    <div class="card-text">
+                        <p class="h5">Adidas</p>
+                        <p class="h2">Adidas Red</p>
+                        <p class="h3">Rs.3200 <Span>Rs.5500</Span></p>
+                        <button class="btn">
+                            <p class="h4">Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card-badge">
+                    <img src="./assets/hushpuppies.jpg" alt="sneakers">
+                    <div class="card-tag flex-row">
+                        <span class="material-icons-outlined">
+                            favorite_border
+                        </span>
+                    </div>
+
+                    <div class="card-text">
+                        <p class="h5">Hush</p>
+                        <p class="h2">Hush Hard</p>
+                        <p class="h3">Rs.1600 <Span>Rs.3200</Span></p>
+                        <button class="btn">
+                            <p class="h4">Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card-badge">
+                    <img src="./assets/khadims.jpg" alt="sneakers">
+                    <div class="card-tag flex-row">
+                        <span class="material-icons-outlined">
+                            favorite_border
+                        </span>
+                    </div>
+
+                    <div class="card-text">
+                        <p class="h5">Khadims</p>
+                        <p class="h2">Brown</p>
+                        <p class="h3">Rs.490 <Span>Rs.999</Span></p>
+                        <button class="btn">
+                            <p class="h4">Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card-badge">
+                    <img src="./assets/nike.png" alt="sneakers">
+                    <div class="card-tag flex-row">
+                        <span class="material-icons-outlined">
+                            favorite_border
+                        </span>
+                    </div>
+
+                    <div class="card-text">
+                        <p class="h5">Nike</p>
+                        <p class="h2">Nike Airforce</p>
+                        <p class="h3">Rs.4900 <Span>Rs.9999</Span></p>
+                        <button class="btn">
+                            <p class="h4">Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card-badge">
+                    <img src="./assets/nike.png" alt="sneakers">
+                    <div class="card-tag flex-row">
+                        <span class="material-icons-outlined">
+                            favorite_border
+                        </span>
+                    </div>
+
+                    <div class="card-text">
+                        <p class="h5">Nike</p>
+                        <p class="h2">Nike Airforce</p>
+                        <p class="h3">Rs.4900 <Span>Rs.9999</Span></p>
+                        <button class="btn">
+                            <p class="h4">Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card-badge">
+                    <img src="./assets/nike.png" alt="sneakers">
+                    <div class="card-tag flex-row">
+                        <span class="material-icons-outlined">
+                            <img src="./assets/heart.png">
+                        </span>
+                    </div>
+
+                    <div class="card-text">
+                        <p class="h5">Nike</p>
+                        <p class="h2">Nike Airforce</p>
+                        <p class="h3">Rs.4900 <Span>Rs.9999</Span></p>
+                        <button class="btn">
+                            <p class="h4">Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card-badge">
+                    <img src="./assets/adidas_red.jpg" alt="sneakers">
+                    <div class="card-tag flex-row">
+                        <span class="material-icons-outlined">
+                            favorite_border
+                        </span>
+                    </div>
+
+                    <div class="card-text">
+                        <p class="h5">Adidas</p>
+                        <p class="h2">Adidas Red</p>
+                        <p class="h3">Rs.3200 <Span>Rs.5500</Span></p>
+                        <button class="btn">
+                            <p class="h4">Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card-badge">
+                    <img src="./assets/hushpuppies.jpg" alt="sneakers">
+                    <div class="card-tag flex-row">
+                        <span class="material-icons-outlined">
+                            favorite_border
+                        </span>
+                    </div>
+
+                    <div class="card-text">
+                        <p class="h5">Hush</p>
+                        <p class="h2">Hush Hard</p>
+                        <p class="h3">Rs.1600 <Span>Rs.3200</Span></p>
+                        <button class="btn">
+                            <p class="h4">Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="footer-home flex-col">
+
+                <h1 class="h3">Created by Yogesh Gupta</h1>
+                <div class="social" id="social">
+                    <a href="https://github.com/yogesh-">
+                        <img class="icons" src="./assets/github.png">
+                    </a>
+                    <a href="https://twitter.com/yo_gupta">
+                        <img class="icons" src="./assets/twitter.png">
+
+                    </a>
+                    <a href="https://www.linkedin.com/in/yogupta/">
+                        <img class="icons" src="./assets/linkedin.png">
+                    </a>
+                </div>
+
+                <p class="h5">&#169; 2022 SNEAKERS Pvt Ltd</p>
+            </div>
+        </footer>
+
+
+    </section>
+</body>
+
+</html>
