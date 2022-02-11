@@ -95,7 +95,7 @@ body {
   top: 0.2;
   left: 0;
   padding-left: 0.4rem;
-  color: black;
+  color: var(--black-color);
 }
 
 .nav-items {
