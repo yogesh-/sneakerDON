@@ -20,9 +20,7 @@
     "trending"
     "footer";
   grid-template-columns: 1fr;
-  /* grid-template-rows: 5rem 2fr 1.5fr 1.5fr 10rem; */
   grid-template-rows: 5rem 63rem 50rem 52rem 10rem;
-  grid-gap: 1em;
 }
 
 /* navigation bar top */
@@ -53,7 +51,6 @@ nav .nav-items .number-red {
   height: 3rem;
   width: 30rem;
   font-size: 2rem;
-  /* margin: 0rem 0rem; */
 }
 
 .search-bar {
