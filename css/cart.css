@@ -1,0 +1,69 @@
+@import url(/css/styles.css);
+
+.cart-management {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav nav"
+    "heading heading heading heading"
+    "empty card price empty2"
+    "footer footer footer footer";
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+  grid-template-rows: 5rem 5rem 1fr 2rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  grid-area: nav;
+}
+
+nav a {
+  color: var(--text-color);
+}
+
+.cart-heading {
+  grid-area: heading;
+}
+
+.empty1 {
+  grid-area: empty;
+}
+
+.empty2 {
+  grid-area: empty2;
+}
+
+.card {
+  grid-area: card;
+  background-color: var(--hover-btn-color);
+}
+
+.price {
+  grid-area: price;
+  background-color: var(--hover-btn-color);
+}
+
+footer {
+  grid-area: footer;
+}
+
+hr {
+  margin: 1rem 0rem;
+}
+
+.h2 {
+  font-weight: bold;
+}
+
+.price-container {
+  background: white;
+  padding: 2rem;
+}
+
+.price-two-col {
+  justify-content: space-between;
+}
+
+.price button {
+  margin-top: 1rem;
+}
