@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="stylesheet" href="https://agniui.netlify.app/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="cart-management">
+
+        <!-- navbar -->
+
+        <nav class="navigaton flex-row">
+
+            <div class="brand">
+                <a href="/html/index.html">
+                    <p class="h1">SNEAKERS</p>
+                </a>
+            </div>
+
+            <div class="search-bar flex-row">
+                <input type="text" placeholder="Search">
+                <span class="material-icons-outlined search-icon">
+                    search
+                </span>
+            </div>
+
+            <div class="nav-items">
+                <ul class="flex-row right-icons">
+                    <li><button class="btn">
+                            <p class="h4">Login</p>
+                    </li>
+
+                    <li>
+                        <div class="badge">
+                            <span class="material-icons-outlined">favorite_border</span>
+                            <div class="number-red">8</div>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="badge">
+                            <span class="material-icons-outlined">
+                                shopping_cart
+                            </span>
+                            <div class="number-red">12</div>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <!-- Heading -->
+
+        <div class="cart-heading text-center">
+            <p class="h2">MY CART(2)</p>
+        </div>
+
+        <!-- empty -->
+
+        <div class="empty1">
+
+        </div>
+
+        <!-- product card -->
+
+        <div class="card flex-row">
+            <div class="card-horizontal">
+                <img src="/assets/nike.png" alt="sneakers">
+
+                <div class="card-text">
+                    <p class="h4">Nike</p>
+                    <p class="h2" h1>Nike Airforce</p>
+                    <p class="h3">Rs.4900 <Span>Rs.9999</Span></p>
+                    <p class="h3">50% OFF</p>
+                    <div class="incrementor flex-row">
+                        <p class="h4">Quantity: </p>
+                        <input id="number" class="h4" type="number" value="2">
+                    </div>
+                    <button class="btn">
+                        <p class="h4">Remove from Cart</p>
+                    </button>
+                    <button class="btn btn-secondary">
+                        <p class="h4">Add to Wishlist</p>
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- price-detail -->
+
+        <div class="price flex-row">
+            <div class="price-container flex-col">
+                <p class="h2">PRICE DETAILS</p>
+                <hr>
+
+                <div class="price-two-col flex-row">
+                    <div class="left-col">
+                        <p class="h3">Price (2 items) </p>
+                        <p class="h3">Discount</p>
+                        <p class="h3">Delivery Charges</p>
+                        <hr>
+                        <p class="h2">TOTAL AMOUNT</p>
+
+                    </div>
+
+                    <div class="right-col">
+                        <p class="h3">4999 </p>
+                        <p class="h3">-1999</p>
+                        <p class="h3">499</p>
+                        <hr>
+                        <p class="h2">3499</p>
+
+                    </div>
+
+
+                </div>
+                <hr>
+                <p id="last-line- class=" class="h3 last-line">You would save 1999 on this order</p>
+
+                <button class="btn">
+                    <p class="h3">Place Order</p>
+                </button>
+
+            </div>
+        </div>
+
+        <div class="empty2">
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer-home flex-col">
+
+            <h1 class="h3">Created by Yogesh Gupta</h1>
+            <div class="social" id="social">
+                <a href="https://github.com/yogesh-">
+                    <img class="icons" src="/assets/github.png">
+                </a>
+                <a href="https://twitter.com/yo_gupta">
+                    <img class="icons" src="/assets/twitter.png">
+
+                </a>
+                <a href="https://www.linkedin.com/in/yogupta/">
+                    <img class="icons" src="/assets/linkedin.png">
+                </a>
+            </div>
+
+            <p class="h5">&#169; 2022 SNEAKERS Pvt Ltd</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
