@@ -1,5 +1,5 @@
 @import url(../styles.css);
-@import url(/product_listing.css);
+@import url(../product_listing.css);
 
 .top-heading {
   margin: 2rem;
