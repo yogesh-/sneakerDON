@@ -178,7 +178,7 @@ main .card-tag {
   position: absolute;
   right: 3rem;
   top: 3rem;
-  background: gainsboro;
+  background: var(--text-color);
   border-radius: 50%;
   align-items: center;
 }
