@@ -23,11 +23,31 @@
   grid-template-rows: 5rem 63rem 50rem 52rem 10rem;
 }
 
+a {
+  all: revert;
+  all: unset;
+}
+
 /* navigation bar top */
+
+nav a {
+  margin: 0rem;
+  padding: 0 1rem;
+}
+
+.card-text > a {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.temp-class {
+  width: 100%;
+}
 
 nav {
   grid-area: head;
-  background-color: #03045e;
+  background-color: var(--primary-color);
   justify-content: center;
   align-items: center;
   height: 5rem;
@@ -35,9 +55,18 @@ nav {
   color: var(--text-color);
 }
 
+nav .logo p {
+  color: var(--text-color);
+}
+
 nav .nav-items button {
   background-color: var(--text-color);
   color: var(--black-color);
+  margin-bottom: 0.3rem;
+}
+
+nav .nav-items a:hover {
+  cursor: pointer;
 }
 
 nav .nav-items .number-red {
@@ -72,7 +101,7 @@ nav .nav-items .number-red {
 }
 
 .nav-items {
-  width: 20rem;
+  width: 30rem;
 }
 .nav-items .right-icons li {
   justify-content: space-around;
@@ -186,6 +215,10 @@ nav .nav-items .number-red {
   align-items: center;
   line-height: 3rem;
   margin-top: 2rem;
+}
+
+.footer-home a:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {
