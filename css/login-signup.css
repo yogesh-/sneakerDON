@@ -1,0 +1,65 @@
+@import url(/css/styles.css);
+
+/* remove password border, importing from component library */
+.login-form {
+  height: 100vh;
+}
+
+.login-form .form {
+  width: 40rem;
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: var(--text-color);
+}
+
+.login-form .form > p {
+  margin-bottom: 3rem;
+}
+
+/* .first-input {
+  margin: 0 auto;
+} */
+
+.forgot {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.check-row {
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.form input[type="password"] {
+  border: none;
+}
+
+#password,
+#email {
+  font-size: 2rem;
+}
+
+nav .logo a {
+  color: var(--text-color);
+}
+/* Signup */
+
+.form > a {
+  cursor: pointer;
+}
+
+.form .pswd-hide-icon {
+  position: absolute;
+  top: 4rem;
+  right: 0.4rem;
+
+  color: var(--black-color);
+}
+
+.pswd-bar {
+  position: relative;
+}
+
+.pswd-hide-icon:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="/css/login-signup.css">
+    <link rel="stylesheet" href="https://agniui.netlify.app/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="login-container">
+        <!-- navigation -->
+
+        <nav class="navigaton flex-row">
+
+            <div class="logo">
+
+                <p class="h1"><a href="/index.html">SNEAKERS</p></a>
+                </a>
+            </div>
+
+            <!-- <div class="search-bar flex-row">
+            <input type="text" placeholder="Search">
+            <span class="material-icons-outlined search-icon">
+                search
+            </span>
+        </div> -->
+
+            <!-- <div class="nav-items">
+            <ul class="flex-row right-icons">
+                <li>
+
+                    <button class="btn">
+                        <p class="h4">Login</p>
+
+                </li>
+                <li>
+                    <a href="/html/wishlist.html">
+                        <div class="badge">
+                            <span class="material-icons-outlined">favorite_border</span>
+                            <div class="number-red">8</div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/html/cart.html">
+                        <div class="badge">
+                            <span class="material-icons-outlined">
+                                shopping_cart
+                            </span>
+                            <div class="number-red">12</div>
+                        </div>
+                    </a>
+
+                </li>
+
+                <li>
+                    <a href="/html/logout.html">
+                        <span class="material-icons-outlined">
+                            logout
+                        </span>
+                    </a>
+
+                </li>
+            </ul>
+        </div>  -->
+
+        </nav>
+
+        <!-- form -->
+        <div class="login-form flex-row">
+
+            <div class="form flex-col">
+
+                <p class="h1">Sign Up</p>
+
+                <div class="first-input flex-col">
+                    <label for="fname" class="h3">First Name</label>
+                    <input type="text" id="email" name="email" placeholder="First Name" size="25ch">
+                </div>
+
+                <div class="first-input flex-col">
+                    <label for="fname" class="h3">Last Name</label>
+                    <input type="text" id="email" name="email" placeholder="Last Name" size="25ch">
+                </div>
+
+                <div class="first-input flex-col">
+                    <label for="email" class="h3">Email Address</label>
+                    <input type="text" id="email" name="email" placeholder="Enter Email" size="25ch">
+                </div>
+
+                <div class="first-input flex-col pswd-bar">
+                    <label for="passwordone" class="h3">Password sdc </label>
+                    <input type="password" id="password" name="password" placeholder="Enter Password" size="25ch">
+                    <span onclick="hideUnhide()" class="material-icons-outlined pswd-hide-icon">
+                        hide_source
+                    </span>
+                </div>
+
+                <div class="first-input flex-col">
+                    <label for="password" class="h3">Confirm Password </label>
+                    <input type="password" id="password" name="password" placeholder="Confirm Password" size="25ch">
+                </div>
+
+
+
+                <div class="check-row flex-row">
+
+                    <input type="checkbox">
+                    <p class="h4"> I accept Terms & Conditions</p>
+
+
+                </div>
+
+                <button class="btn">
+                    <p class="h3">Create New Account</p>
+                </button>
+
+                <a href="/html/login.html">
+                    <p class="h3">Already have an account ></p>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- footer -->
+
+        <div class="footer-home flex-col">
+
+            <h1 class="h3">Created by Yogesh Gupta</h1>
+            <div class="social" id="social">
+                <a href="https://github.com/yogesh-">
+                    <img class="icons" src="/assets/github.png">
+                </a>
+                <a href="https://twitter.com/yo_gupta">
+                    <img class="icons" src="/assets/twitter.png">
+
+                </a>
+                <a href="https://www.linkedin.com/in/yogupta/">
+                    <img class="icons" src="/assets/linkedin.png">
+                </a>
+            </div>
+
+            <p class="h5">&#169; 2022 SNEAKERS Pvt Ltd</p>
+        </div>
+    </div>
+
+    <script>
+        function hideUnhide() {
+            var mm = document.getElementById("password");
+            if (mm.type === "password") {
+                mm.type = "text";
+            } else {
+                mm.type = "password";
+            }
+        }
+    </script>
+</body>
+
+</html>
