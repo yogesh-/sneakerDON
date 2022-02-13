@@ -16,10 +16,6 @@
   margin-bottom: 3rem;
 }
 
-/* .first-input {
-  margin: 0 auto;
-} */
-
 .forgot {
   text-decoration: underline;
   cursor: pointer;
@@ -42,6 +38,7 @@
 nav .logo a {
   color: var(--text-color);
 }
+
 /* Signup */
 
 .form > a {
