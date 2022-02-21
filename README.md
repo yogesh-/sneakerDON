@@ -4,14 +4,15 @@ SNEAKERS is an ecommerce shop built for the  sneakers universe.
 
 The Ecommmerce web App is divided among the following pages
 
-- Homepage
-- Product Lists pages
-- Wishlist
-- Cart
-- Login
-- Logout
+- [Homepage](https://sneaker-don.netlify.app/)
+- [Product Lists pages](https://sneaker-don.netlify.app/html/product_listing.html)
+- [Wishlist](https://sneaker-don.netlify.app/html/wishlist.html)
+- [Cart](https://sneaker-don.netlify.app/html/cart.html)
+- [Login](https://sneaker-don.netlify.app/html/login.html)
+- [Signup](https://sneaker-don.netlify.app/html/signup.html)
+- [Logout](https://sneaker-don.netlify.app/html/logout.html)
 
-URL - sneaker-don.netlify.app
+URL - https://sneaker-don.netlify.app
 
 ---
 
