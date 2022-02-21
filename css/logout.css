@@ -1,0 +1,34 @@
+@import url(/css/styles.css);
+
+.logout {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "page"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 2rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  grid-area: nav;
+}
+
+nav .nav-items a {
+  color: var(--black-color);
+}
+
+.page {
+  grid-area: page;
+  background-color: var(--hover-btn-color);
+}
+
+footer {
+  grid-area: footer;
+}
+
+.h2 {
+  font-weight: bold;
+}

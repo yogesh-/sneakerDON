@@ -57,6 +57,7 @@ nav {
 
 nav .logo p {
   color: var(--text-color);
+  cursor: pointer;
 }
 
 nav .nav-items button {
